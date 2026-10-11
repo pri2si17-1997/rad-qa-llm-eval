@@ -83,3 +83,7 @@ scripts/                        evaluation and analysis entry points
 - **Unit:** the question. The test split has 614 questions over 104 reports, 154 of them unanswerable. The data loader flattens 280 doubly annotated questions into two rows each (894 rows). Scoring takes the first prediction per question and the maximum over the annotators' answers, following SQuAD v2.
 - **Answerability:** an answerable/unanswerable mismatch scores 0, and a correct abstention scores 1.
 - **Inference:** confidence intervals are bootstrap intervals clustered by report.
+
+## Use of AI assistants
+
+We used an AI assistant (Claude Code, Anthropic) to help run the experiments and write the manuscript. The authors verified all code, results and text, and take full responsibility for the content.
