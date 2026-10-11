@@ -1,0 +1,81 @@
+app:
+  app_name: "radqa_llm_eval"
+  log_file_name: "<{file}_{model_name}>.log"
+
+bedrock:
+  credentials_profile_name: "default"
+  models:
+    # claude:
+    #   # - model_id: "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    #   #   region_name: "us-east-1"
+    #   #   base_url: "https://<YOUR_ENDPOINT>.amazonaws.com"
+    #   #   model_config:
+    #   #     max_tokens: 4096
+    #   #     temperature: 0
+    #   # - model_id: "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+    #   #   region_name: "us-east-1"
+    #   #   base_url: "https://<YOUR_ENDPOINT>.amazonaws.com"
+    #   #   model_config:
+    #   #     max_tokens: 4096
+    #   #     temperature: 0
+    #   # - model_id: "us.anthropic.claude-opus-5"
+    #   #   region_name: "us-east-1"
+    #   #   base_url: "https://<YOUR_ENDPOINT>.amazonaws.com"
+    #   #   model_config:
+    #   #     max_tokens: 4096
+    #   # - model_id: "us.anthropic.claude-sonnet-5"
+    #   #   region_name: "us-east-1"
+    #   #   base_url: "https://<YOUR_ENDPOINT>.amazonaws.com"
+    #   #   model_config:
+    #   #     max_tokens: 4096
+    # llama:
+    #   # - model_id: "us.meta.llama4-maverick-17b-instruct-v1:0"
+    #   #   region_name: "us-east-1"
+    #   #   model_config:
+    #   #     max_tokens: 4096
+    #   #     temperature: 0
+    #   # - model_id: "us.meta.llama4-scout-17b-instruct-v1:0"
+    #   #   region_name: "us-east-1"
+    #   #   model_config:
+    #   #     max_tokens: 4096
+    #   #     temperature: 0
+    # mistral:
+    #   # - model_id: "mistral.mistral-large-3-675b-instruct"
+    #   #   region_name: "us-east-1"
+    #   #   model_config:
+    #   #     max_tokens: 4096
+    #   #     temperature: 0
+    #   # - model_id: "mistral.ministral-3-14b-instruct"
+    #   #   region_name: "us-east-1"
+    #   #   model_config:
+    #   #     max_tokens: 4096
+    #   #     temperature: 0
+    # gpt_oss:
+    #     # - model_id: "openai.gpt-oss-120b-1:0"
+    #     #   region_name: "us-east-1"
+    #     #   model_config:
+    #     #     max_tokens: 4096
+    #     #     temperature: 0
+    #     # - model_id: "openai.gpt-oss-20b-1:0"
+    #     #   region_name: "us-east-1"
+    #     #   model_config:
+    #     #     max_tokens: 4096
+    #     #     temperature: 0
+    # deepseek:
+    #   - model_id: "deepseek.v3.2"
+    #     region_name: "us-east-1"
+    #     model_config:
+    #       max_tokens: 4096
+    #       temperature: 0
+
+# vertex_gcp:
+#   models:
+#     gemini:
+#       - model_id: "gemini-3.1-pro-preview"
+#         model_config:
+#           max_tokens: 4096
+#           temperature: 0
+#       - model_id: "gemini-3-flash-preview"
+#         model_config:
+#           max_tokens: 4096
+#           temperature: 0
